@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+    <dict>
+      <key>CFBundleDevelopmentRegion</key>
+      <string>zh_CN</string>
+      <key>CFBundleDisplayName</key>
+      <string>${PRODUCT_NAME}</string>
+      <key>CFBundleExecutable</key>
+      <string>${EXECUTABLE_NAME}</string>
+      <key>CFBundleIconFile</key>
+      <string>icon.png</string>
+      <key>CFBundleIcons</key>
+      <dict/>
+      <key>CFBundleIcons~ipad</key>
+      <dict/>
+      <key>CFBundleIdentifier</key>
+      <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+      <key>CFBundleInfoDictionaryVersion</key>
+      <string>6.0</string>
+      <key>CFBundleName</key>
+      <string>${PRODUCT_NAME}</string>
+      <key>CFBundlePackageType</key>
+      <string>APPL</string>
+      <key>CFBundleShortVersionString</key>
+      <string>1.0.6</string>
+      <key>CFBundleSignature</key>
+      <string>????</string>
+      <key>CFBundleURLTypes</key>
+      <array>
+        <dict>
+          <key>CFBundleURLName</key>
+          <string>com.customer</string>
+          <key>CFBundleURLSchemes</key>
+          <array>
+            <string>customer</string>
+          </array>
+        </dict>
+      </array>
+      <key>CFBundleVersion</key>
+      <string>1.0.1</string>
+      <key>LSApplicationCategoryType</key>
+      <string></string>
+      <key>LSApplicationQueriesSchemes</key>
+      <array>
+        <string>comgooglemaps</string>
+      </array>
+      <key>LSRequiresIPhoneOS</key>
+      <true/>
+      <key>NSAppTransportSecurity</key>
+      <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+      </dict>
+      <key>NSCameraUsageDescription</key>
+      <string>xxx</string>
+      <key>NSLocationWhenInUseUsageDescription</key>
+      <string></string>
+      <key>NSPhotoLibraryUsageDescription</key>
+      <string>yyy</string>
+      <key>UIRequiresFullScreen</key>
+      <true/>
+      <key>UISupportedInterfaceOrientations</key>
+      <array/>
+      <key>UISupportedInterfaceOrientations~ipad</key>
+      <array/>
+    </dict>
+  </plist>
+
+
+  <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+      <dict>
+        <key>items</key>
+        <array>
+          <dict>
+            <key>assets</key>
+            <array>
+              <dict>
+                <key>kind</key>
+                <string>software-package</string>
+                <key>url</key>
+                <!-- http://www.domain.com/domain.ipa(这里是IPA文件的路径， http路径就可以) -->
+                <string>https://nj01ct01.baidupcs.com/file/6c00d1adf768bfaf8f5bc8724b2ffec0?bkt=p3-000081b99bdb134a408a21b1eefb9c6e7620&fid=2670425495-250528-128415690783272&time=1515643548&sign=FDTAXGERLQBHSKa-DCb740ccc5511e5e8fedcff06b081203-T2y4v0rlupLi6HApqvAi0OFzGh8%3D&to=63&size=24003380&sta_dx=24003380&sta_cs=0&sta_ft=ipa&sta_ct=0&sta_mt=0&fm2=MH,Yangquan,Anywhere,,guangdong,ct&vuk=282335&iv=0&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=000081b99bdb134a408a21b1eefb9c6e7620&sl=79364174&expires=8h&rt=sh&r=504577284&mlogid=243618213215606600&vbdid=1680727622&fin=%E4%B8%AD%E5%9C%8B%E5%A4%AA%E5%B9%B3%E9%A6%99%E6%B8%AF.ipa&fn=%E4%B8%AD%E5%9C%8B%E5%A4%AA%E5%B9%B3%E9%A6%99%E6%B8%AF.ipa&rtype=1&dp-logid=243618213215606600&dp-callid=0.1.1&hps=1&tsl=100&csl=100&csign=azJdY%2B10Z49b0LbASthGmxMFU9c%3D&so=0&ut=6&uter=4&serv=0&uc=674208142&ic=925418830&ti=3727dfe1d7389af152b2162cf037d376676cc7f183c2413d&by=themis</string>
+              </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+              <key>bundle-identifier</key>
+              <!-- com.domain.app12(这个名字在xcode 中查看) -->
+              <string>com.taiping.hk.customer</string>
+              <key>bundle-version</key>
+              <!-- app的版本，在xcode中看 -->
+              <string>1.0.6</string>
+              <key>kind</key>
+              <string>software</string>
+              <key>title</key>
+              <!-- 这里是APP的名称 -->
+              <string>中國太平香港</string>
+            </dict>
+          </dict>
+        </array>
+      </dict>
+    </plist>
